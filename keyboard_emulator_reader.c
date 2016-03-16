@@ -121,7 +121,6 @@ main(int argc, const char *argv[])
       if (uid != parse_dex(nt.nti.nai.abtUid, nt.nti.nai.szUidLen)) {
         //printf("%s\n", strtol(*nt.nti.nai.abtUid, 16));
         i++;
-        printf("\nmotherfucker %d\n", i);
         printf("Uid : ");
         print_hex(nt.nti.nai.abtUid, nt.nti.nai.szUidLen);
         printf("Parse dex : ");
